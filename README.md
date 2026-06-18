@@ -1,22 +1,25 @@
-# 🛒 Retail Sales Dashboard
+# 🛒 Retail Sales Dashboard | Power BI
 
 ## 📖 Overview
 
-The **Retail Sales Dashboard** is an interactive Power BI solution developed to analyze retail business performance through sales, revenue, customer demographics, product performance, and operational metrics. The dashboard provides decision-makers with actionable insights to optimize sales strategies, improve customer satisfaction, and enhance overall business performance.
+The **Retail Sales Dashboard** is an interactive Power BI project developed to analyze retail business performance through sales, customer behavior, product performance, and operational metrics. The dashboard transforms raw transactional data into actionable insights, enabling stakeholders to make informed business decisions.
+
+This project demonstrates end-to-end Business Intelligence skills, including data cleaning, data modeling, DAX calculations, KPI development, and interactive dashboard design.
 
 ---
 
 ## 🎯 Business Problem
 
-Retail organizations generate large volumes of transactional data daily, making it challenging to identify sales trends, understand customer behavior, and monitor operational performance.
+Retail businesses generate large amounts of transactional data, making it difficult to identify trends, monitor performance, and understand customer purchasing behavior.
 
-This dashboard addresses the following key business questions:
+This dashboard helps answer critical business questions related to:
 
-- Which product categories generate the highest revenue?
-- Which customer segments contribute the most to sales?
-- When are customers most likely to place orders?
-- How are sales performing over time?
-- Which product categories experience the highest return and cancellation rates?
+- Sales performance
+- Customer spending patterns
+- Product demand
+- Revenue generation
+- Return and cancellation trends
+- Customer demographics
 
 ---
 
@@ -28,7 +31,7 @@ This dashboard addresses the following key business questions:
 | Order Volume | 6,099 |
 | Return Rate | 25% |
 | Cancellation Rate | 24% |
-| Payment Method | Credit Card |
+| Preferred Payment Method | Credit Card |
 
 ---
 
@@ -38,48 +41,72 @@ This dashboard addresses the following key business questions:
 
 ---
 
-## 📈 Dashboard Features
+## 🔍 Business Questions Answered
 
-### 1. Customer Purchase Analysis
-Analyzes purchasing behavior by gender across different product categories, helping identify customer preferences and support targeted marketing initiatives.
+### 1. What are the top 5 most-selling products by quantity?
+Identifies the products with the highest sales volume to support inventory planning and demand forecasting.
 
-### 2. Order Distribution by Time of Day
-Visualizes customer ordering patterns across Morning, Afternoon, Evening, and Night periods to identify peak shopping hours.
+### 2. Which products are most frequently cancelled?
+Highlights products with the highest cancellation rates to identify operational or customer satisfaction issues.
 
-### 3. Product Sales by Quantity
-Highlights the best-selling products based on quantity sold, enabling better inventory and demand planning.
+### 3. What time of day has the highest number of purchases?
+Analyzes customer purchasing activity across different time periods (Morning, Afternoon, Evening, Night).
 
-### 4. Monthly Sales Trend
-Tracks sales performance over time, helping stakeholders identify trends, seasonality, and revenue fluctuations.
+### 4. Who are the top 5 highest-spending customers?
+Identifies the most valuable customers based on total purchase value.
 
-### 5. Age Group Analysis
-Evaluates customer spending across different age segments to determine the most valuable customer groups.
+### 5. Which product categories generate the highest revenue?
+Measures revenue contribution by category to identify the most profitable business segments.
 
-### 6. Revenue by Product Category
-Compares revenue contributions from product categories to identify top-performing business segments.
+### 6. What is the return/cancellation rate per product category?
+Evaluates operational performance and customer satisfaction across product categories.
 
-### 7. Return & Cancellation Analysis
-Measures return and cancellation rates across product categories to uncover operational inefficiencies and customer satisfaction issues.
+### 7. What is the preferred payment mode?
+Analyzes customer payment preferences to understand transaction behavior.
+
+### 8. How does age group affect purchasing behavior?
+Examines spending patterns across different customer age groups.
+
+### 9. What is the monthly sales trend?
+Tracks sales performance over time to identify growth patterns and seasonality.
+
+### 10. Are certain genders buying more specific product categories?
+Analyzes product preferences based on customer gender.
 
 ---
 
-## 🔍 Key Insights
+## 📈 Dashboard Features
 
-### Customer Insights
-- Customers aged **36–50** generate the highest purchase value.
-- Purchasing activity is relatively balanced across genders.
+### Customer Analysis
+- Purchase behavior by Gender
+- Purchase behavior by Age Group
+- Top Spending Customers
 
-### Product Insights
+### Product Analysis
+- Top Selling Products
+- Revenue by Product Category
+- Category Performance Comparison
+
+### Sales Analysis
+- Monthly Sales Trend
+- Order Volume Tracking
+- Revenue Monitoring
+
+### Operational Analysis
+- Return Rate by Category
+- Cancellation Rate by Category
+- Payment Method Analysis
+
+---
+
+## 🔑 Key Insights
+
+- Customers aged **36–50** contribute the highest purchase value.
 - **Furniture** is the highest revenue-generating category.
-- Products such as **Wardrobes** and **Vegetables** contribute significantly to sales volume.
-
-### Sales Performance
-- Sales show a gradual decline over the analyzed period, indicating opportunities for promotional and retention strategies.
-
-### Operational Insights
+- Credit Card is the most preferred payment method.
 - Return Rate stands at **25%**.
 - Cancellation Rate stands at **24%**.
-- Certain categories require further investigation to reduce order losses and improve customer experience.
+- Product purchasing behavior varies across customer demographics.
 
 ---
 
@@ -87,47 +114,50 @@ Measures return and cancellation rates across product categories to uncover oper
 
 | Technology | Purpose |
 |------------|---------|
-| Power BI | Dashboard Development & Visualization |
-| DAX | KPI and Measure Calculations |
+| Power BI | Dashboard Development |
 | Power Query | Data Cleaning & Transformation |
+| DAX | KPI & Measure Calculations |
 | Excel / CSV | Data Source |
+| Data Modeling | Relationship Management |
 
 ---
 
 ## 📚 Skills Demonstrated
 
-- Data Cleaning & Transformation
+- Data Cleaning
+- Data Transformation
 - Data Modeling
-- DAX Measures & Calculations
+- DAX Calculations
 - KPI Development
-- Interactive Dashboard Design
 - Business Intelligence Reporting
 - Data Visualization
-- Business Insights & Storytelling
+- Dashboard Design
+- Business Analysis
+- Storytelling with Data
 
 ---
 
 ## 🚀 Business Impact
 
-This dashboard helps stakeholders:
+This dashboard enables stakeholders to:
 
-- Monitor business performance through key KPIs.
-- Identify high-performing products and categories.
-- Understand customer purchasing behavior.
-- Improve inventory and demand planning.
+- Monitor key business KPIs in real time.
+- Identify top-performing products and categories.
+- Understand customer purchasing patterns.
+- Improve inventory planning and sales strategies.
 - Reduce return and cancellation rates.
-- Support data-driven strategic decision-making.
+- Support data-driven decision-making.
 
 ---
 
 ## 🔮 Future Enhancements
 
+- Customer Lifetime Value (CLV) Analysis
 - Profitability Analysis
-- Customer Lifetime Value (CLV) Tracking
-- Geographic Sales Analysis
-- Sales Forecasting
-- Product-Level Drill-Through Reports
-- Real-Time Data Refresh Integration
+- Geographic Sales Insights
+- Predictive Sales Forecasting
+- Real-Time Dashboard Refresh
+- Customer Segmentation Analysis
 
 ---
 
@@ -135,17 +165,19 @@ This dashboard helps stakeholders:
 
 **AKASH.B**
 
-Data Analyst | 
+Data Analyst | Power BI Developer
 
+📧 akashb998000@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/akashb7/
 
 ---
 
 ## ⭐ Project Highlights
 
-✔ Interactive Power BI Dashboard  
-✔ Retail Sales Performance Analysis  
-✔ Customer Demographic Insights  
-✔ Revenue & Product Category Analysis  
-✔ Return and Cancellation Monitoring  
-✔ Business-Oriented KPI Tracking
+✔ End-to-End Power BI Project  
+✔ Interactive Retail Sales Dashboard  
+✔ KPI Tracking & Business Monitoring  
+✔ Customer & Product Analytics  
+✔ Revenue & Sales Trend Analysis  
+✔ Return & Cancellation Insights  
+✔ Business-Oriented Data Storytelling
