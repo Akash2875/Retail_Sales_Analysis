@@ -133,7 +133,7 @@ This dashboard helps stakeholders:
 
 ## 👨‍💻 Author
 
-**=AKASH.B**
+**AKASH.B**
 
 Data Analyst | 
 
