@@ -37,7 +37,7 @@ This dashboard helps answer critical business questions related to:
 
 ## 📷 Dashboard Preview
 
-![Retail Sales Dashboard](dashboard.png)
+![Retail Sales Dashboard](https://github.com/Akash2875/Retail_Sales_Analysis/blob/main/Sales_Analysis_Dashboard_Image.png)
 
 ---
 
