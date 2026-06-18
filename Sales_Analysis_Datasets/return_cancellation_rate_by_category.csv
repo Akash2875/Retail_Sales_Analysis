@@ -1,0 +1,7 @@
+product_category,total_orders,returned_orders,cancelled_orders,returned_rate,cancellation_rate
+Furniture,345,81,78,0.23,0.23
+Accessories,327,103,77,0.31,0.24
+Electronics,309,64,76,0.21,0.25
+Clothing,356,89,91,0.25,0.26
+Groceries,333,78,75,0.23,0.23
+Books,333,85,88,0.26,0.26
